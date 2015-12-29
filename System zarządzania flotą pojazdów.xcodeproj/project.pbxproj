@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CF1C5031C32BD39005B8377 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1C5021C32BD39005B8377 /* main.m */; };
+		4CF1C5061C32BD39005B8377 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1C5051C32BD39005B8377 /* AppDelegate.m */; };
+		4CF1C5091C32BD39005B8377 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1C5081C32BD39005B8377 /* ViewController.m */; };
+		4CF1C50C1C32BD39005B8377 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF1C50A1C32BD39005B8377 /* Main.storyboard */; };
+		4CF1C50E1C32BD39005B8377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF1C50D1C32BD39005B8377 /* Assets.xcassets */; };
+		4CF1C5111C32BD39005B8377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF1C50F1C32BD39005B8377 /* LaunchScreen.storyboard */; };
+		4CF1C51C1C32BD3A005B8377 /* System_zarza_dzania_flota__pojazdo_wTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1C51B1C32BD3A005B8377 /* System_zarza_dzania_flota__pojazdo_wTests.m */; };
+		4CF1C5271C32BD3A005B8377 /* System_zarza_dzania_flota__pojazdo_wUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1C5261C32BD3A005B8377 /* System_zarza_dzania_flota__pojazdo_wUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CF1C5181C32BD3A005B8377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CF1C4F61C32BD39005B8377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CF1C4FD1C32BD39005B8377;
+			remoteInfo = "System zarządzania flotą pojazdów";
+		};
+		4CF1C5231C32BD3A005B8377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CF1C4F61C32BD39005B8377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CF1C4FD1C32BD39005B8377;
+			remoteInfo = "System zarządzania flotą pojazdów";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CF1C4FE1C32BD39005B8377 /* System zarządzania flotą pojazdów.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "System zarządzania flotą pojazdów.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF1C5021C32BD39005B8377 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CF1C5041C32BD39005B8377 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CF1C5051C32BD39005B8377 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CF1C5071C32BD39005B8377 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4CF1C5081C32BD39005B8377 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CF1C50B1C32BD39005B8377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CF1C50D1C32BD39005B8377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CF1C5101C32BD39005B8377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CF1C5121C32BD39005B8377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF1C5171C32BD3A005B8377 /* System zarządzania flotą pojazdówTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "System zarządzania flotą pojazdówTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF1C51B1C32BD3A005B8377 /* System_zarza_dzania_flota__pojazdo_wTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = System_zarza_dzania_flota__pojazdo_wTests.m; sourceTree = "<group>"; };
+		4CF1C51D1C32BD3A005B8377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF1C5221C32BD3A005B8377 /* System zarządzania flotą pojazdówUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "System zarządzania flotą pojazdówUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF1C5261C32BD3A005B8377 /* System_zarza_dzania_flota__pojazdo_wUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = System_zarza_dzania_flota__pojazdo_wUITests.m; sourceTree = "<group>"; };
+		4CF1C5281C32BD3A005B8377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CF1C4FB1C32BD39005B8377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF1C5141C32BD3A005B8377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF1C51F1C32BD3A005B8377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CF1C4F51C32BD39005B8377 = {
+			isa = PBXGroup;
+			children = (
+				4CF1C5001C32BD39005B8377 /* System zarządzania flotą pojazdów */,
+				4CF1C51A1C32BD3A005B8377 /* System zarządzania flotą pojazdówTests */,
+				4CF1C5251C32BD3A005B8377 /* System zarządzania flotą pojazdówUITests */,
+				4CF1C4FF1C32BD39005B8377 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CF1C4FF1C32BD39005B8377 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CF1C4FE1C32BD39005B8377 /* System zarządzania flotą pojazdów.app */,
+				4CF1C5171C32BD3A005B8377 /* System zarządzania flotą pojazdówTests.xctest */,
+				4CF1C5221C32BD3A005B8377 /* System zarządzania flotą pojazdówUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CF1C5001C32BD39005B8377 /* System zarządzania flotą pojazdów */ = {
+			isa = PBXGroup;
+			children = (
+				4CF1C5041C32BD39005B8377 /* AppDelegate.h */,
+				4CF1C5051C32BD39005B8377 /* AppDelegate.m */,
+				4CF1C5071C32BD39005B8377 /* ViewController.h */,
+				4CF1C5081C32BD39005B8377 /* ViewController.m */,
+				4CF1C50A1C32BD39005B8377 /* Main.storyboard */,
+				4CF1C50D1C32BD39005B8377 /* Assets.xcassets */,
+				4CF1C50F1C32BD39005B8377 /* LaunchScreen.storyboard */,
+				4CF1C5121C32BD39005B8377 /* Info.plist */,
+				4CF1C5011C32BD39005B8377 /* Supporting Files */,
+			);
+			path = "System zarządzania flotą pojazdów";
+			sourceTree = "<group>";
+		};
+		4CF1C5011C32BD39005B8377 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CF1C5021C32BD39005B8377 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CF1C51A1C32BD3A005B8377 /* System zarządzania flotą pojazdówTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CF1C51B1C32BD3A005B8377 /* System_zarza_dzania_flota__pojazdo_wTests.m */,
+				4CF1C51D1C32BD3A005B8377 /* Info.plist */,
+			);
+			path = "System zarządzania flotą pojazdówTests";
+			sourceTree = "<group>";
+		};
+		4CF1C5251C32BD3A005B8377 /* System zarządzania flotą pojazdówUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CF1C5261C32BD3A005B8377 /* System_zarza_dzania_flota__pojazdo_wUITests.m */,
+				4CF1C5281C32BD3A005B8377 /* Info.plist */,
+			);
+			path = "System zarządzania flotą pojazdówUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CF1C4FD1C32BD39005B8377 /* System zarządzania flotą pojazdów */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF1C52B1C32BD3A005B8377 /* Build configuration list for PBXNativeTarget "System zarządzania flotą pojazdów" */;
+			buildPhases = (
+				4CF1C4FA1C32BD39005B8377 /* Sources */,
+				4CF1C4FB1C32BD39005B8377 /* Frameworks */,
+				4CF1C4FC1C32BD39005B8377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "System zarządzania flotą pojazdów";
+			productName = "System zarządzania flotą pojazdów";
+			productReference = 4CF1C4FE1C32BD39005B8377 /* System zarządzania flotą pojazdów.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CF1C5161C32BD3A005B8377 /* System zarządzania flotą pojazdówTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF1C52E1C32BD3A005B8377 /* Build configuration list for PBXNativeTarget "System zarządzania flotą pojazdówTests" */;
+			buildPhases = (
+				4CF1C5131C32BD3A005B8377 /* Sources */,
+				4CF1C5141C32BD3A005B8377 /* Frameworks */,
+				4CF1C5151C32BD3A005B8377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CF1C5191C32BD3A005B8377 /* PBXTargetDependency */,
+			);
+			name = "System zarządzania flotą pojazdówTests";
+			productName = "System zarządzania flotą pojazdówTests";
+			productReference = 4CF1C5171C32BD3A005B8377 /* System zarządzania flotą pojazdówTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CF1C5211C32BD3A005B8377 /* System zarządzania flotą pojazdówUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF1C5311C32BD3A005B8377 /* Build configuration list for PBXNativeTarget "System zarządzania flotą pojazdówUITests" */;
+			buildPhases = (
+				4CF1C51E1C32BD3A005B8377 /* Sources */,
+				4CF1C51F1C32BD3A005B8377 /* Frameworks */,
+				4CF1C5201C32BD3A005B8377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CF1C5241C32BD3A005B8377 /* PBXTargetDependency */,
+			);
+			name = "System zarządzania flotą pojazdówUITests";
+			productName = "System zarządzania flotą pojazdówUITests";
+			productReference = 4CF1C5221C32BD3A005B8377 /* System zarządzania flotą pojazdówUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CF1C4F61C32BD39005B8377 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Mateusz Siepietowski";
+				TargetAttributes = {
+					4CF1C4FD1C32BD39005B8377 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4CF1C5161C32BD3A005B8377 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4CF1C4FD1C32BD39005B8377;
+					};
+					4CF1C5211C32BD3A005B8377 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4CF1C4FD1C32BD39005B8377;
+					};
+				};
+			};
+			buildConfigurationList = 4CF1C4F91C32BD39005B8377 /* Build configuration list for PBXProject "System zarządzania flotą pojazdów" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CF1C4F51C32BD39005B8377;
+			productRefGroup = 4CF1C4FF1C32BD39005B8377 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CF1C4FD1C32BD39005B8377 /* System zarządzania flotą pojazdów */,
+				4CF1C5161C32BD3A005B8377 /* System zarządzania flotą pojazdówTests */,
+				4CF1C5211C32BD3A005B8377 /* System zarządzania flotą pojazdówUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CF1C4FC1C32BD39005B8377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF1C5111C32BD39005B8377 /* LaunchScreen.storyboard in Resources */,
+				4CF1C50E1C32BD39005B8377 /* Assets.xcassets in Resources */,
+				4CF1C50C1C32BD39005B8377 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF1C5151C32BD3A005B8377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF1C5201C32BD3A005B8377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CF1C4FA1C32BD39005B8377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF1C5091C32BD39005B8377 /* ViewController.m in Sources */,
+				4CF1C5061C32BD39005B8377 /* AppDelegate.m in Sources */,
+				4CF1C5031C32BD39005B8377 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF1C5131C32BD3A005B8377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF1C51C1C32BD3A005B8377 /* System_zarza_dzania_flota__pojazdo_wTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF1C51E1C32BD3A005B8377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF1C5271C32BD3A005B8377 /* System_zarza_dzania_flota__pojazdo_wUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CF1C5191C32BD3A005B8377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CF1C4FD1C32BD39005B8377 /* System zarządzania flotą pojazdów */;
+			targetProxy = 4CF1C5181C32BD3A005B8377 /* PBXContainerItemProxy */;
+		};
+		4CF1C5241C32BD3A005B8377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CF1C4FD1C32BD39005B8377 /* System zarządzania flotą pojazdów */;
+			targetProxy = 4CF1C5231C32BD3A005B8377 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CF1C50A1C32BD39005B8377 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF1C50B1C32BD39005B8377 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CF1C50F1C32BD39005B8377 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF1C5101C32BD39005B8377 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CF1C5291C32BD3A005B8377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CF1C52A1C32BD3A005B8377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CF1C52C1C32BD3A005B8377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "System zarządzania flotą pojazdów/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BM.System-zarza-dzania-flota--pojazdo-w";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CF1C52D1C32BD3A005B8377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "System zarządzania flotą pojazdów/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BM.System-zarza-dzania-flota--pojazdo-w";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4CF1C52F1C32BD3A005B8377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "System zarządzania flotą pojazdówTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BM.System-zarza-dzania-flota--pojazdo-wTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/System zarządzania flotą pojazdów.app/System zarządzania flotą pojazdów";
+			};
+			name = Debug;
+		};
+		4CF1C5301C32BD3A005B8377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "System zarządzania flotą pojazdówTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BM.System-zarza-dzania-flota--pojazdo-wTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/System zarządzania flotą pojazdów.app/System zarządzania flotą pojazdów";
+			};
+			name = Release;
+		};
+		4CF1C5321C32BD3A005B8377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "System zarządzania flotą pojazdówUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BM.System-zarza-dzania-flota--pojazdo-wUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "System zarządzania flotą pojazdów";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4CF1C5331C32BD3A005B8377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "System zarządzania flotą pojazdówUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BM.System-zarza-dzania-flota--pojazdo-wUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "System zarządzania flotą pojazdów";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CF1C4F91C32BD39005B8377 /* Build configuration list for PBXProject "System zarządzania flotą pojazdów" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF1C5291C32BD3A005B8377 /* Debug */,
+				4CF1C52A1C32BD3A005B8377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF1C52B1C32BD3A005B8377 /* Build configuration list for PBXNativeTarget "System zarządzania flotą pojazdów" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF1C52C1C32BD3A005B8377 /* Debug */,
+				4CF1C52D1C32BD3A005B8377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CF1C52E1C32BD3A005B8377 /* Build configuration list for PBXNativeTarget "System zarządzania flotą pojazdówTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF1C52F1C32BD3A005B8377 /* Debug */,
+				4CF1C5301C32BD3A005B8377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CF1C5311C32BD3A005B8377 /* Build configuration list for PBXNativeTarget "System zarządzania flotą pojazdówUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF1C5321C32BD3A005B8377 /* Debug */,
+				4CF1C5331C32BD3A005B8377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CF1C4F61C32BD39005B8377 /* Project object */;
+}
